@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Clases especiales */
+.borde-izq {
+    border-radius: 10px 0 0 10px;
+}
+
+.borde-der {
+    border-radius: 0 10px 10px 0;
+}
+
+/* Contenedor */
+.contenedor {
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navegador con migas de pan */
+nav {
+    width: 100%;
+    padding: 10px 0;
+    margin: 15px 0;
+    border-bottom: 2px solid #EEF2DE; /* Fondo claro */
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    color: #222; /* Texto oscuro */
+    font-weight: 500;
+    font-size: 0.9em;
+    transition: color 0.3s ease, background 0.3s ease;
+}
+
+nav a:hover {
+    color: #46590D; /* Verde oscuro */
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+main h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #222; /* Texto oscuro */
+}
+
+/* Imágenes */
+main img {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Formularios */
+.form-comp {
+    width: 90%;
+    margin: auto;
+    background: #EEF2DE; /* Fondo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-doble {
+    width: 50%;
+    height: 400px;
+    background: #494949; /* Fondo oscuro */
+    border: 1px solid #95D015; /* Verde brillante */
+    padding: 30px 0;
+    float: left;
+}
+
+form {
+    width: 100%;
+    padding: 20px 0;
+}
+
+form .form-enc {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #95D015; /* Verde brillante */
+}
+
+form h1 {
+    text-align: center;
+    background: #46590D; /* Verde oscuro */
+    padding: 10px;
+    color: #fff;
+}
+
+form .form-cuerpo {
+    width: 100%;
+    padding: 10px;
+}
+
+form label,
+form input {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+form label {
+    padding: 10px;
+    width: 40%;
+    text-align: right;
+    font-size: 0.9em;
+    color: #95D015; /* Verde brillante */
+}
+
+form input,
+form select {
+    padding: 10px 5px;
+    width: 55%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #46590D; /* Verde oscuro */
+    outline: none;
+}
+
+form .tipo-radio {
+    font-size: 0.8em;
+}
+
+form .tipo-radio label {
+    font-size: 1em;
+}
+
+form input[type="radio"] {
+    width: 5%;
+}
+
+form .form-pie {
+    width: 100%;
+    padding: 10px 50px 0 10px;
+    text-align: right;
+}
+
+form a {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background: #46590D; /* Verde oscuro */
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    border: 1px solid #95D015; /* Verde brillante */
+}
+
+form a:hover {
+    background: #95D015; /* Verde brillante */
+}
+
+/* Estilos de Tablas */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    background: #222; /* Fondo oscuro */
+    color: #fff; /* Texto claro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+th {
+    background: #46590D; /* Verde oscuro */
+    color: #fff;
+    font-weight: 600;
+    padding: 12px;
+}
+
+td,
+th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #494949; /* Fondo oscuro alternativo */
+}
+
+tr:hover {
+    background-color: #95D015; /* Verde brillante */
+}
